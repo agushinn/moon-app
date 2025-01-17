@@ -15,6 +15,9 @@ i18n.use(Backend)
         react: {
             useSuspense: true,
         },
+        backend: {
+            loadPath: '/moon-app/locales/{{lng}}/{{ns}}.json',
+        },
     })
 
 export default i18n

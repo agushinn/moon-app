@@ -14,7 +14,7 @@ const NotFound = () => {
             <Header />
             <h4 className={styles.notFoundTitle}>{t('not-found-title')}</h4>
             <div className={styles.moonContainer}>:(</div>
-            <Link className={styles.notFoundLink} to="/">
+            <Link className={styles.notFoundLink} to="/moon-app">
                 {t('not-found-link')}
             </Link>
         </section>
