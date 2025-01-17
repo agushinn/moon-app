@@ -1,5 +1,5 @@
 import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
 import { Layout } from '@pages/Layout/Layout'
 import { NotFound } from '@pages/NotFound/NotFound'
 import { Search } from '@pages/Search/Search'
@@ -13,10 +13,12 @@ const router = createBrowserRouter([
         errorElement: <NotFound />,
         children: [
             {
+                path: '', 
+                element: <Navigate to="today" replace />, 
+            },
+            {
                 path: 'today',
                 element: <Today />,
-                index: true,
-
             },
             {
                 path: 'search',
