@@ -1,0 +1,17 @@
+.datesContainer {
+    background-color: #00000070;
+    margin: 2rem auto;
+    border: 1px solid rgba(255, 255, 255, 0.122);
+    width: 90%;
+    height: fit-content;
+    border-radius: 20px;
+
+    ul {
+        margin-top: 0;
+
+        li {
+            list-style: none;
+            margin-top: 1em;
+        }
+    }
+}
