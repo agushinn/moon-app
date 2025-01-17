@@ -14,7 +14,7 @@ const Header = () => {
                 <ul className={styles.navList}>
                     <li>
                         <NavLink
-                            to="/"
+                            to="today"
                             className={({ isActive }) =>
                                 isActive ? styles.active : ''
                             }
@@ -24,7 +24,7 @@ const Header = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="/search"
+                            to="search"
                             className={({ isActive }) =>
                                 isActive ? styles.active : ''
                             }
@@ -34,7 +34,7 @@ const Header = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="/upcoming"
+                            to="upcoming"
                             className={({ isActive }) =>
                                 isActive ? styles.active : ''
                             }

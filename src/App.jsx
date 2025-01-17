@@ -8,20 +8,22 @@ import { Upcoming } from '@pages/Upcoming/Upcoming'
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/moon-app',
         element: <Layout />,
         errorElement: <NotFound />,
         children: [
             {
-                path: '/',
+                path: 'today',
                 element: <Today />,
+                index: true,
+
             },
             {
-                path: '/search',
+                path: 'search',
                 element: <Search />,
             },
             {
-                path: '/upcoming',
+                path: 'upcoming',
                 element: <Upcoming />,
             },
         ],
