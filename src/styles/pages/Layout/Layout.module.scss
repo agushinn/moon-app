@@ -1,0 +1,22 @@
+.layoutContainer {
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: 0;
+    position: relative;
+
+    @media screen and (min-width: 577px) {
+        height: 100%;
+
+        border: 1px solid #2323237a;
+        margin: 1em auto;
+        border-radius: 30px;
+        background: #252931;
+        box-shadow: 30px -30px 60px #15171b, -30px 30px 60px #3b414d;
+        height: 700px;
+        width: 500px;
+    }
+
+    @media screen and (min-width: 765px) {
+        width: 750px;
+    }
+}
