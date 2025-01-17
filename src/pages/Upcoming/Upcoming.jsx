@@ -44,13 +44,13 @@ const Upcoming = () => {
     }, [selectedPhase])
 
     return (
-        <div className={styles.upcomingSection}>
+        <section className={styles.upcomingSection}>
             <PhaseSelector
                 selectedPhase={selectedPhase}
                 onSelectPhase={selectPhaseHandler}
             />
             <DateList dates={upcomingDates} />
-        </div>
+        </section>
     )
 }
 
