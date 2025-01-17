@@ -1,0 +1,21 @@
+.searchSection {
+    margin: 2rem 0;
+    position: relative;
+
+    .todayButton {
+        right: 0;
+        position: absolute;
+        color: white;
+        background-color: black;
+        border: none;
+        border-radius: 5px;
+        padding: 1rem;
+        cursor: pointer;
+        top: 53%;
+
+        &:hover {
+            transition: background-color 0.2s ease;
+            background-color: #3b414d;
+        }
+    }
+}
