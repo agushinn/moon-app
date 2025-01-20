@@ -2,6 +2,7 @@ import { Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import store from '@store/store'
 import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/react'
 
 import './index.css'
 
@@ -20,6 +21,6 @@ createRoot(document.getElementById('root')).render(
             </Suspense>
         </I18nextProvider>
         <Analytics />
-        {/* <SpeedInsights /> */}
+        <SpeedInsights />
     </Provider>
 )
