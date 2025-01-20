@@ -1,6 +1,7 @@
 import { Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import store from '@store/store'
+import { Analytics, SpeedInsights } from '@vercel/analytics/react'
 
 import './index.css'
 
@@ -18,5 +19,7 @@ createRoot(document.getElementById('root')).render(
                 <App />
             </Suspense>
         </I18nextProvider>
+        <Analytics />
+        <SpeedInsights />
     </Provider>
 )
