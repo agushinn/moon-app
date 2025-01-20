@@ -4,5 +4,13 @@
             "source": "/(.*)",
             "destination": "/"
         }
+    ],
+    "plugins": [
+        {
+            "name": "vercel-plugin-speed-insights",
+            "options": {
+                "enabled": true
+            }
+        }
     ]
 }
