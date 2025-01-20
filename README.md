@@ -3,7 +3,7 @@
 Welcome to **LunarPhase** project! This project is for practice and understanding the core concepts of React, JavaScript, and Redux by building a lunar phase display application. 
 
 ### Calculate the lunar phase for today and any date you want!
-### https://agushinn.github.io/moon-app/
+## https://moon-agushin.vercel.app/
 
 ## 🚀 Features
 
