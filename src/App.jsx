@@ -1,5 +1,5 @@
 import './App.css'
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Layout } from '@pages/Layout/Layout'
 import { NotFound } from '@pages/NotFound/NotFound'
 import { Search } from '@pages/Search/Search'
@@ -8,17 +8,14 @@ import { Upcoming } from '@pages/Upcoming/Upcoming'
 
 const router = createBrowserRouter([
     {
-        path: '/moon-app',
+        path: '/',
         element: <Layout />,
         errorElement: <NotFound />,
         children: [
             {
-                path: '', 
-                element: <Navigate to="today" replace />, 
-            },
-            {
-                path: 'today',
+                path: '',
                 element: <Today />,
+                index: true,
             },
             {
                 path: 'search',
