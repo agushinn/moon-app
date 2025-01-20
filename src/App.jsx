@@ -1,8 +1,6 @@
 import './App.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Analytics } from '@vercel/analytics/react'
-
 
 import { Layout } from '@pages/Layout/Layout'
 import { NotFound } from '@pages/NotFound/NotFound'
@@ -33,11 +31,6 @@ const router = createBrowserRouter([
     },
 ])
 
-const App = () => (
-    <>
-        <RouterProvider router={router} />
-        <Analytics />
-    </>
-)
+const App = () => <RouterProvider router={router} />
 
 export default App
