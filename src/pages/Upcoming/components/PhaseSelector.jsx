@@ -1,5 +1,5 @@
 import styles from '@styles/pages/Upcoming/PhaseSelector.module.scss'
-import { LUNAR_PHASE_INFO } from '@utils/Moon'
+import { LUNAR_PHASE_INFO } from '@utils/moon'
 
 import { LunarPhase } from '@components/LunarPhase/LunarPhase'
 

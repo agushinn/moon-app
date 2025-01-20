@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import styles from '@styles/pages/Upcoming/Upcoming.module.scss'
-import { Moon, LUNAR_PHASE } from '@utils/Moon'
+import { Moon, LUNAR_PHASE } from '@utils/moon'
 
 import { PhaseSelector } from '@pages/Upcoming/components/PhaseSelector'
 import { DateList } from '@pages/Upcoming/components/DateList'
