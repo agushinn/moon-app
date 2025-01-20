@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux'
 
 import styles from '@styles/components/LunarPhase/LunarPhase.module.scss'
-import { HEMISPHERE } from '@utils/Moon'
+import { HEMISPHERE } from '@utils/moon'
 
 import { useTranslation } from 'react-i18next'
 

@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
-import { HEMISPHERE } from '@utils/Moon'
+import { HEMISPHERE } from '@utils/moon'
 
 const initialState = {
     currentHemisphere:
