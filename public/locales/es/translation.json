@@ -75,5 +75,8 @@
     "waning-crescent-health-0-tip": "Practica meditación profunda o escribe en un diario para liberar emociones.",
     "waning-crescent-health-1-tip": "Toma acciones restaurativas para sanar y recargar tu cuerpo.",
     "waning-crescent-plants-0-tip": "Enfócate en limpiar y eliminar malas hierbas o restos del jardín.",
-    "waning-crescent-plants-1-tip": "Prepara herramientas y organiza suministros de jardinería para el próximo ciclo."
+    "waning-crescent-plants-1-tip": "Prepara herramientas y organiza suministros de jardinería para el próximo ciclo.",
+    "show-moon-tips": "Mostrar consejos de la Luna",
+    "hide-moon-tips": "Ocultar consejos de la Luna",
+    "hemisphere-toggle": "Cambiar entre hemisferio norte y sur"
 }
