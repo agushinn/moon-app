@@ -31,6 +31,7 @@ const LunarTips = ({ phase }) => {
                         ? styles.buttonTipsActive
                         : styles.buttonTipsInactive
                 }`}
+                aria-label={showMoonTips ? t('hide-moon-tips') : t('show-moon-tips')}
                 onClick={displayTipsHandler}
             />
             <div

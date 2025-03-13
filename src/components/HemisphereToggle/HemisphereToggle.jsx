@@ -4,10 +4,12 @@ import styles from '@styles/components/HemisphereToggle/HemisphereToggle.module.
 import { HEMISPHERE } from '@utils/moon'
 
 import { useSelector, useDispatch } from 'react-redux'
+import { useTranslation } from 'react-i18next'
 
 const HemisphereToggle = () => {
     const dispatch = useDispatch()
     const { currentHemisphere } = useSelector((state) => state.hemisphere)
+    const { t } = useTranslation()
 
     return (
         <div className={styles.onoffswitch}>
@@ -27,6 +29,9 @@ const HemisphereToggle = () => {
                         )
                     )
                 }}
+                role="switch"
+                aria-label={t('hemisphere-toggle')}
+                aria-checked={currentHemisphere == HEMISPHERE.NORTHERN}
             />
             <label className={styles.onoffswitchLabel} htmlFor="myonoffswitch">
                 <span className={styles.onoffswitchInner}></span>
